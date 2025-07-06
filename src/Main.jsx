@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { createRoot } from "react-dom/client";
 import Translatorstart from "./components/TranslatorStart";
 import TranslatorApp from "./components/TranslatorApp";
 import "./style.css"
 import TranslatorStart from "./components/TranslatorStart";
-import { BrowserRouter, createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 
 
